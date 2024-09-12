@@ -15,9 +15,10 @@ public class BaseTests {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
+        driver.get("https://the-internet.herokuapp.com/");
+
         //driver.get("https://localhost:3000");
-        driver.get("https://cicero.oslo.no/no");
-        //driver.get("https://the-internet.herokuapp.com/");
+        //driver.get("https://cicero.oslo.no/no");
 
         homePage = new HomePage(driver);
     }
