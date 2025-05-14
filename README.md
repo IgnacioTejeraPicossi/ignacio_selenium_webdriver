@@ -76,7 +76,7 @@ public void testSuccessfulLogin() {
 
 ## 📚 Additional Resources
 
-For more examples and detailed implementation of different test types, visit the companion repository: https://github.com/your-username/thewebdrivetest
+For more examples and detailed implementation of different test types, visit the companion repository: https://github.com/IgnacioTejeraPicossi/thewebdrivetest
 
 ## 📄 License
 
